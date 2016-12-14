@@ -1,4 +1,5 @@
-# gingr
+gingr <img src="gingerbread-man.png" align="right" />
+============================================
 Material calculator to make gingerbread stuff...
 
 Overview
