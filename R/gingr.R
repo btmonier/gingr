@@ -72,7 +72,7 @@ gingr <- function(area, units, structure = NULL, ...) {
   
   r.area = round(n.area, 2)
   
-  cat('\nHere is what you need for your gingerbread', structure, ': \n\n')
+  message('\nHere is what you need for your gingerbread', structure, ':\n')
   cat('INGREDIENT   \t AMOUNT   UNIT\n')
   cat('-------------------------------\n')
   
