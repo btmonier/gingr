@@ -1,10 +1,17 @@
 Package: gingr
-Title: What the Package Does (one line, title case)
-Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.2)
-License: What license is it under?
-Encoding: UTF-8
+Title: Material calculator for gingerbread stuff
+Version: 1.1.0
+Authors@R: person("Brandon", 
+    "Monier", 
+    email = "brandon.monier@gmail.com", 
+    role = c("aut", "cre"))
+Description: This package will calculate materials needed to create gingerbread
+    cookies, houses, forts, etc. This package serves no academic or scientific
+    purpose whatsoever. Why did you even download this?
+Depends: R (>= 3.1.0) 
+License: GPL-3 | file LICENSE
 LazyData: true
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+Imports:
+    methods
