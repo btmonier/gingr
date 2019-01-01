@@ -11,3 +11,16 @@ setGeneric(
         standardGeneric("recipe")
     }
 )
+
+
+#' @title Get facts from a Gingr object
+#'
+#' @name gingrFact
+#' @rdname gingrFact-methods
+#' @exportMethod gingrFact
+setGeneric(
+    name = "gingrFact",
+    def = function(object) {
+        standardGeneric("gingrFact")
+    }
+)

@@ -26,7 +26,7 @@ setMethod(
 )
 
 
-#' @title  Getter method for recipe extraction of Gingr objects
+#' @title Getter method for recipe extraction of Gingr objects
 #'
 #' @param object an S4 \code{Gingr} class object
 #'
@@ -37,6 +37,24 @@ setMethod(
     signature = "Gingr",
     def = function(object) {
         return(object@recipe)
+    }
+)
+
+
+#' @title Get a random fortune from Gingr objects
+#'
+#' @param object an S4 \code{Gingr} class object
+#'
+#' @rdname gingrFact-methods
+#' @aliases gingrFact,Gingr-method
+setMethod(
+    f = "gingrFact",
+    signature = "Gingr",
+    def = function(object) {
+        message(
+            speechBubble(.message(object), 5),
+            .ascii()[[character]]
+        )
     }
 )
 
