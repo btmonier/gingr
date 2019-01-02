@@ -1,4 +1,4 @@
-# === Generics for gingr classes ====================================
+# === Generics for gingr methods ====================================
 
 #' @title Get recipe from a Gingr object
 #'
