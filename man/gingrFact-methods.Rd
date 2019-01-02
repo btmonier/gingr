@@ -6,12 +6,15 @@
 \alias{gingrFact,Gingr-method}
 \title{Get facts from a Gingr object}
 \usage{
-gingrFact(object)
+gingrFact(object, character)
 
-\S4method{gingrFact}{Gingr}(object)
+\S4method{gingrFact}{Gingr}(object, character = "elf")
 }
 \arguments{
 \item{object}{an S4 \code{Gingr} class object}
+
+\item{character}{what character do you want to say the fortune? Current
+options are \code{"elf", "devil", or "alien"}.}
 }
 \description{
 Get facts from a Gingr object

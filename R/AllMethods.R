@@ -44,13 +44,15 @@ setMethod(
 #' @title Get a random fortune from Gingr objects
 #'
 #' @param object an S4 \code{Gingr} class object
+#' @param character what character do you want to say the fortune? Current
+#'    options are \code{"elf", "devil", or "alien"}.
 #'
 #' @rdname gingrFact-methods
 #' @aliases gingrFact,Gingr-method
 setMethod(
     f = "gingrFact",
     signature = "Gingr",
-    def = function(object) {
+    def = function(object, character = "elf") {
         message(
             speechBubble(.message(object), 5),
             .ascii()[[character]]

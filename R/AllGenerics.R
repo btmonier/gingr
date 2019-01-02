@@ -20,7 +20,7 @@ setGeneric(
 #' @exportMethod gingrFact
 setGeneric(
     name = "gingrFact",
-    def = function(object) {
+    def = function(object, character) {
         standardGeneric("gingrFact")
     }
 )
