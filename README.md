@@ -1,42 +1,36 @@
----
-output: github_document
----
 
+gingr <img src="man/figures/gingr-logo.svg" align="right" height="120"/>
+========================================================================
 
+Overview
+--------
 
-# gingr <img src="man/figures/gingr-logo.svg" align="right" height="120"/>
+This function will calculate the amount of material required to make a gingerbread related structure of any size! Want to make a life size model of an ant? We got you covered. Want to recreate the **MOON**?! **BRING IT ON, SUCKER!** Want to make a normal, *boring* gingerbread house? Sure, fine... It can do that too, I guess...
 
-## Overview
-This function will calculate the amount of material required to make a
-gingerbread related structure of any size! Want to make a life size model of
-an ant? We got you covered. Want to recreate the
-**MOON**?! **BRING IT ON, SUCKER!** Want to make a normal, *boring* gingerbread
-house? Sure, fine... It can do that too, I guess...
+Installation
+------------
 
-## Installation
-The easiest way to obtain this package is to install `devtools` and pull the
-package contents directly from GitHub.
+The easiest way to obtain this package is to install `devtools` and pull the package contents directly from GitHub.
 
-
-```r
+``` r
 # Development version from GitHub
 # install.packages("devtools")
 
 devtools::install_github("btmonier/gingr")
 ```
 
-## Usage
-All you need to enter is the unit area your mega structure will cover and it
-will give you an output of what you need with respective units.
+Usage
+-----
 
+All you need to enter is the unit area your mega structure will cover and it will give you an output of what you need with respective units.
 
-```r
+``` r
 library(gingr)
 
 Gingr(area = 1200, unit = "in", structure = "MEGA FORTRESS")
 ```
 
-## Getting help
-For additional information on these functions, please see the given
-documentation in the `gingr` package by adding the `?` help operator before any
-of the given functions in this package or by using the `help()` function.
+Getting help
+------------
+
+For additional information on these functions, please see the given documentation in the `gingr` package by adding the `?` help operator before any of the given functions in this package or by using the `help()` function.
